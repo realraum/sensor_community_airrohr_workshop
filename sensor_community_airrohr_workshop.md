@@ -8,6 +8,8 @@ paginate: true
 
 # realraum AirRohr Bastel Workshop
 
+## DIY Feinstaubsensor
+
 ---
 # Die Map
 
@@ -39,22 +41,39 @@ http://sensor.community
 
 ---
 
-# Beispiel Airrohr Feinstaubsensor
+# Beispiel Montage
+
+## Airrohr
 
 ![bg right:50%](img/airrohr_am_fenster.JPG)
 
 - klassisch
 - straßenseitig
 - guter WLAN Empfang
-- ca 3,5m Höhe
+- 503cm Höhe
 
 ---
-# Beispiel Airrohr als Box
+# Beispiel Montage
+
+## Airrohr
+
+![bg right:50% fit](img/r3_airrohr_mounted.jpg)
+
+- klassich
+- straßenseitig
+- mittelguter WLAN Empfang hinter Eisen
+- 257cm Höhe
+- der r3 Sensor
+
+---
+# Beispiel Montage 
+
+## Box
 
 ![bg right:40%](img/airbox_im_innenhof2.JPG)
 
 - unscheinbare Box
-- 1m Höhe
+- ca 1m Höhe
 - knapper WLAN Empfang
 - Innenhof
 
@@ -129,6 +148,13 @@ python3 -m serial.tools.miniterm /dev/ttyUSB0 9600
 - optional AirRohr PCB + extra C1
 - optional micro-USB-Kabel
 
+---
+
+![bg](img/r3_airrohr_pcb.jpg)
+
+---
+
+![bg](img/r3_airrohr_assembled.jpg)
 
 ---
 # Success
@@ -141,9 +167,8 @@ python3 -m serial.tools.miniterm /dev/ttyUSB0 9600
   - oder am Airrohr-Flasher-Tool in der Statusleiste, wenn via USB verbunden
 
 ---
-# Sensor registrieren
 
-![width:80%](img/Screenshot_register_sensor.png)
+![bg fit](img/Screenshot_register_sensor.png)
 
 ---
 # WLAN neu konfigurieren
