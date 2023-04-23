@@ -180,7 +180,7 @@ Weil:
 
 ---
 
-# DMNS Standort Microphon
+# DMNS Standort Mikrofon
 
 - möglichst "freier" Bereich zu platzieren
   - möglichst wenig schallreflektierenden Flächen
