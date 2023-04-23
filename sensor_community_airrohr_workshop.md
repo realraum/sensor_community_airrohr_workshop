@@ -6,7 +6,6 @@ size: 16:9
 paginate: true
 ---
 
-![width:20%](https://raw.githubusercontent.com/realraum/logo/master/logo-red.svg)
 # realraum AirRohr Bastel Workshop
 
 ---

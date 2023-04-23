@@ -30,14 +30,7 @@ jobs:
       - name: Marp Build (sensor_community_airrohr_workshop.pdf)
         uses: docker://marpteam/marp-cli:v2.5.0
         with:
-          args: sensor_community_airrohr_workshop.md -o build/sensor_community_airrohr_workshop.pdf
-        env:
-          MARP_USER: root:root
-
-      - name: Marp Build (sensor_community_airrohr_workshop.pptx)
-        uses: docker://marpteam/marp-cli:v2.5.0
-        with:
-          args: sensor_community_airrohr_workshop.md -o build/sensor_community_airrohr_workshop.pptx
+          args: sensor_community_airrohr_workshop.md --pdf --allow-local-files -o build/sensor_community_airrohr_workshop.pdf
         env:
           MARP_USER: root:root
 
