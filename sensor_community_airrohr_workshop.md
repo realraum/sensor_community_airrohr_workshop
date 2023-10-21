@@ -227,9 +227,9 @@ Sensor ID ablesen und notieren!
 # Kit Unkostenbeitrag
 
 - ca 52€
-- QR Code funktioniert in Banking Apps
+- QR Code für Banking Apps
 
-![bg right:50% fit](img/bernhard_n26_sensor_community_workshop_content.svg)
+![bg right:40% fit](img/bernhard_n26_sensor_community_workshop_content.svg)
 
 
 ---
