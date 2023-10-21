@@ -90,6 +90,13 @@ http://sensor.community
 4. am µC Sensoren & lokales WIFI konfigurieren
 5. Sensor physisch zusammenbauen
 
+---
+# Link zu den Folien
+
+- verlinkt in Seite zum Termin / Event / Talk
+- https://realraum.github.io/sensor_community_airrohr_workshop/
+
+![bg right:40% contain](img/qr_github_these_slides.svg)
 
 ---
 # Account registrieren
@@ -137,7 +144,23 @@ via Firmware-Webpage and Accesspoint
 - SDS011
 - BME280
 
+Sensor ID ablesen und notieren!
+
 ![bg right:50% fit](img/Screenshot_esp8266_webpage_sensor_config_page.png)
+
+---
+# Sensor ID registrieren
+
+![bg right:36% fit](img/Screenshot_esp8266_webpage_working_sensor.png)
+
+- Sensor registrieren auf [http://devices.sensor.community](https://devices.sensor.community/)
+- Sensor ID ablesen
+  - links oben auf Webseite des ESP8266 wenn im WLAN
+  - oder am Airrohr-Flasher-Tool in der Statusleiste, wenn via USB verbunden
+
+---
+
+![bg fit](img/Screenshot_register_sensor.png)
 
 ---
 
@@ -145,11 +168,11 @@ via Firmware-Webpage and Accesspoint
 
 ![bg right:40% fit](img/qr_sensor_bauanleitung_airrohr.svg)
 
-- [Anleitung](https://sensor.community/de/sensors/airrohr/) gut am Handy zu haben
+- [Anleitung](https://sensor.community/de/sensors/airrohr/), auch gut am Handy zu lesen
 
 ![img](img/sds011-jammed-into-tube.jpeg)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Soldering Tipps, falls nötig](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Soldering Tipps, falls nötig](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
 
 ---
 
@@ -176,19 +199,6 @@ via Firmware-Webpage and Accesspoint
 
 ![bg](img/r3_airrohr_assembled.jpg)
 
----
-# Success
-
-![bg right:36% fit](img/Screenshot_esp8266_webpage_working_sensor.png)
-
-- Sensor registrieren auf [http://devices.sensor.community](https://devices.sensor.community/)
-- Sensor ID ablesen
-  - links oben auf Webseite des ESP8266 wenn im WLAN
-  - oder am Airrohr-Flasher-Tool in der Statusleiste, wenn via USB verbunden
-
----
-
-![bg fit](img/Screenshot_register_sensor.png)
 
 ---
 # WLAN neu konfigurieren
@@ -200,6 +210,7 @@ via Firmware-Webpage and Accesspoint
   - auf deren Webseite, kann WLAN konfiguriert werden
 
 - Alternativ: Airrohr-Flasher-Tool
+
 ---
 # IP im WLAN finden
 
@@ -215,7 +226,8 @@ via Firmware-Webpage and Accesspoint
 ---
 # Kit Unkostenbeitrag
 
-- 52€
+- ca 52€
+- QR Code funktioniert in Banking Apps
 
 ![bg right:50% fit](img/bernhard_n26_sensor_community_workshop_content.svg)
 
@@ -271,3 +283,4 @@ Weil:
     - z.B. Balkone oder Terrassengeländer
     - direkt an der Hausecke, damit sich Reflexionen auslöschen.
 - Je näher man jedoch an die Geräusch-Quelle herankommt, desto besser
+
