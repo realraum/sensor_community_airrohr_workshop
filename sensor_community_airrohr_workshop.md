@@ -82,6 +82,16 @@ http://sensor.community
 
 
 ---
+# Workshop Ablauf
+
+1. sensor.community Account registrieren
+2. µC Firmware flashen + ID aufschreiben
+3. Sensor in eigenem sensor.community Account registrieren
+4. am µC Sensoren & lokales WIFI konfigurieren
+5. Sensor physisch zusammenbauen
+
+
+---
 # Account registrieren
 
 [http://devices.sensor.community](https://devices.sensor.community/)
@@ -120,6 +130,17 @@ python3 -m serial.tools.miniterm /dev/ttyUSB0 9600
 ```
 ---
 
+# Sensor Configuration
+
+via Firmware-Webpage and Accesspoint
+
+- SDS011
+- BME280
+
+![bg right:50% fit](img/Screenshot_esp8266_webpage_sensor_config_page.png)
+
+---
+
 # Airrohr Bauanleitung
 
 ![bg right:40% fit](img/qr_sensor_bauanleitung_airrohr.svg)
@@ -146,17 +167,6 @@ python3 -m serial.tools.miniterm /dev/ttyUSB0 9600
 ---
 
 ![bg fit](img/airrohr-wiring-sds011-bme280.jpg)
-
----
-
-# Sensor Configuration
-
-via Firmware-Webpage and Accesspoint
-
-- SDS011
-- BME280
-
-![bg right:50% fit](img/Screenshot_esp8266_webpage_sensor_config_page.png)
 
 ---
 
