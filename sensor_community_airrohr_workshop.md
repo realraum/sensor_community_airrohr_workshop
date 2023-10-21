@@ -69,13 +69,7 @@ http://sensor.community
 
 ## Airrohr
 
-![bg right:60% fit](img/r3_airrohr_mounted2.jpg)
-
-- klassich
-- straßenseitig
-- mittelguter WLAN Empfang hinter Eisen
-- 257cm Höhe
-- der r3 Sensor
+![bg fit](img/r3_airrohr_mounted2.jpg)
 
 ---
 # Beispiel Montage 
@@ -89,14 +83,6 @@ http://sensor.community
 - knapper WLAN Empfang
 - Innenhof
 
-
----
-# WLAN Distanz überbrücken
-
-![bg right:40%](img/wifi_outdoor_antenna.jpg)
-
-- e.g. [Amazon](https://www.amazon.com/TP-Link-Long-Range-Outdoor-Transmitter/dp/B07YX8NPFL/)
-- Hilfe im realraum oder bei Funkfeuer holen
 
 ---
 # Account registrieren
@@ -226,9 +212,18 @@ via Firmware-Webpage and Accesspoint
 
 ![bg right:50% fit](img/bernhard_n26_sensor_community_workshop_content.svg)
 
+
+---
+# WLAN Distanz überbrücken für Experten
+
+![bg right:40%](img/wifi_outdoor_antenna.jpg)
+
+- e.g. [Amazon](https://www.amazon.com/TP-Link-Long-Range-Outdoor-Transmitter/dp/B07YX8NPFL/)
+- Hilfe im realraum oder bei Funkfeuer holen
+
 ---
 
-# Download Firmware for Experts
+# Firmware Download für Experten
 
 - http://firmware.sensor.community/
 
