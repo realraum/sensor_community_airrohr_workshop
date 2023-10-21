@@ -64,6 +64,18 @@ http://sensor.community
 - mittelguter WLAN Empfang hinter Eisen
 - 257cm Höhe
 - der r3 Sensor
+---
+# Beispiel Montage
+
+## Airrohr
+
+![bg right:60% fit](img/r3_airrohr_mounted2.jpg)
+
+- klassich
+- straßenseitig
+- mittelguter WLAN Empfang hinter Eisen
+- 257cm Höhe
+- der r3 Sensor
 
 ---
 # Beispiel Montage 
@@ -129,11 +141,11 @@ python3 -m serial.tools.miniterm /dev/ttyUSB0 9600
 
 ![bg right:40% fit](img/qr_sensor_bauanleitung_airrohr.svg)
 
-- [Anleitung](https://sensor.community/de/sensors/airrohr/)
+- [Anleitung](https://sensor.community/de/sensors/airrohr/) gut am Handy zu haben
 
 ![img](img/sds011-jammed-into-tube.jpeg)
 
-[Soldering Tipps, falls nötig](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Soldering Tipps, falls nötig](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
 
 ---
 
@@ -147,6 +159,21 @@ python3 -m serial.tools.miniterm /dev/ttyUSB0 9600
 - Marley HT-Bogen DN 75 Grau [Obi](https://www.obi.at/ht-boegen/marley-ht-bogen-87-dn-75-grau/p/2010577), [Hellweg](https://www.hellweg.at/ht-bogen-75-mm/197275)
 - optional AirRohr PCB + extra C1
 - optional micro-USB-Kabel
+
+---
+
+![bg fit](img/airrohr-wiring-sds011-bme280.jpg)
+
+---
+
+# Sensor Configuration
+
+via Firmware-Webpage and Accesspoint
+
+- SDS011
+- BME280
+
+![bg right:50% fit](img/Screenshot_esp8266_webpage_sensor_config_page.png)
 
 ---
 
@@ -173,11 +200,37 @@ python3 -m serial.tools.miniterm /dev/ttyUSB0 9600
 ---
 # WLAN neu konfigurieren
 
-- Daheim eigenes WLAN konfigurieren
-- Findet Sensor Workshop-WLAN nicht mehr, macht er einen AccessPoint auf
-  - auf dessen Webseite, kann WLAN konfiguriert werden
-- Alternativ: Airrohr-FlashingTool verwenden
-  - Configuration-Tab flasht via USB direkt WIFI config auf den ESP8266
+![bg right:45% fit](img/Screenshot_esp8266_webpage_wifi_configuration.png)
+
+- Daheim ins eigene WLAN
+- Wenn FW konfiguriertes WLAN nicht mehr sieht, macht sie einen AccessPoint auf
+  - auf deren Webseite, kann WLAN konfiguriert werden
+
+- Alternativ: Airrohr-Flasher-Tool
+---
+# IP im WLAN finden
+
+- eigenen Router/AP fragen, welche Geräte im WLAN sind
+- multicast-DNS mit Laptop im selben WLAN:
+  - Airrohr Flashing Tool - Discovery Page
+  - `avahi-browse -a -v --resolve | less`
+- Terminal via USB-Kabel:
+  - `python3 -m serial.tools.miniterm /dev/ttyUSB* 9600`
+  - https://bipes.net.br/aroca/web-serial-terminal/ mit Speed 9600
+  - µC Reset und Terminal Output lesen
+
+---
+# Kit Unkostenbeitrag
+
+- 52€
+
+![bg right:50% fit](img/bernhard_n26_sensor_community_workshop_content.svg)
+
+---
+
+# Download Firmware for Experts
+
+- http://firmware.sensor.community/
 
 ---
 
