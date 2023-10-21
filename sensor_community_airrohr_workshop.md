@@ -65,9 +65,6 @@ http://sensor.community
 - 257cm Höhe
 - der r3 Sensor
 ---
-# Beispiel Montage
-
-## Airrohr
 
 ![bg fit](img/r3_airrohr_mounted2.jpg)
 
