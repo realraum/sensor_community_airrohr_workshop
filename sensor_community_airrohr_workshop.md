@@ -121,9 +121,10 @@ git clone https://github.com/opendata-stuttgart/airrohr-firmware-flasher
 cd airrohr-firmware-flasher
 python -m venv airrohr_venv             # Python Virtual Env anlegen
 source ./airrohr_venv/bin/activate      # Python Virtual Env aktivieren
-echo Versionen von pyqt5-sip und pyqt5 entfernen:
+# Versionen von pyinstaller, pyqt5-sip und pyqt5 entfernen:
 vim requirements.txt
 pip3 install -r requirements.txt        # Deps installieren
+make gui/mainwindow.py                  # GUI Generieren
 ```
 
 Tool starten
